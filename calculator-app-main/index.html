@@ -2,25 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="styles/calculator.css">
+  <title>Calculator</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main class="calculator__centered__container">
+
+    <header class="top__heading-themeChanger__container">
+      <div class="calc-heading__container">
+        <p>calc</p>
+      </div>
+      <div class="themeChanger__container">
+        <p class="themeChanger-title">THEME</p>
+        <ul class="themeChanger-numberVariation">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <div class="theme-slide__changer">
+          <section class="theme-slide__changer-button"></section>
+        </div>
+      </div>
+    </header>
+    <article class="inputs-results__screen__container">
+      <input type="number" name="inputs-results__screen" class="inputs-results__screen">
+    </article>
+    <article class="input-buttons__container">
+      
+      <div class="input-buttons__container__style__numbers-operators">
+        <span class="input-buttons__style__numbers-operators">7</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">8</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">9</span></div>
+      
+        <div class="input-buttons__del__button">
+          <span class="input-buttons__style__delete-reset">DEL</span></div>
+      
+      <div class="input-buttons__container__style__numbers-operators">
+        <span class="input-buttons__style__numbers-operators">4</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">5</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">6</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">+</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">1</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">2</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">3</span></div>
+          
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">-</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">.</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">0</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">/</span></div>
+      
+        <div class="input-buttons__container__style__numbers-operators">
+          <span class="input-buttons__style__numbers-operators">x</span></div>
+      
+        <div class="input-buttons__reset__button">
+          <span class="input-buttons__style__delete-reset">RESET</span></div>
+        <div class="input-buttons_equal__button">
+          <span class="input-buttons__style__equal">=</span></div>
+
+    </article>
+
+  </main>
 
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
