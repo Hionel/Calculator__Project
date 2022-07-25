@@ -220,6 +220,8 @@ cursor: pointer;
 
 
 }
-.input-buttons__container__style__numbers-operators:active{
+.input-buttons__container__style__numbers-operators:active,
+.input-buttons__container__style__numbers-operators:focus,
+.test{
     background-color:hsl(0, 0%, 100%) ;
 }
